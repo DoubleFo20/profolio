@@ -2,80 +2,83 @@
 <html>
 <head>
     <title>Patiphon Portfolio</title>
-    <style>
-        body {
-            font-family: Arial;
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        .project {
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin: 10px 0;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Patiphon - Full Stack Developer</h1>
-    <p>React | Node.js | PHP | MySQL</p>
+<body class="bg-gray-100 font-sans">
 
-    <h2>Projects</h2>
+    <div class="max-w-4xl mx-auto p-6">
+        
+        <!-- Header -->
+        <div class="bg-white rounded-2xl shadow p-6 mb-6">
+            <h1 class="text-3xl font-bold text-gray-800">Patiphon - Full Stack Developer</h1>
+            <p class="text-gray-600 mt-2">React | Node.js | PHP | MySQL</p>
+        </div>
 
-    <div class="project">
-        <h3>Engame Web App</h3>
-        <p>React Web Application for learning English with game system.</p>
+        <!-- About Me -->
+        <div class="bg-white rounded-2xl shadow p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-3">About Me</h2>
+            <p class="text-gray-700">
+                I am a Junior Full-Stack Developer who builds web applications using React, Node.js, PHP, and MySQL.
+                I developed real projects such as Engame Web App and Gold Price Tracking Web Application.
+                I am currently looking for a Junior Developer position.
+            </p>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="bg-white rounded-2xl shadow p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-3">Tech Stack</h2>
+            <ul class="list-disc ml-5 text-gray-700">
+                <li><b>Frontend:</b> React, HTML, CSS, JavaScript, Tailwind</li>
+                <li><b>Backend:</b> PHP, Node.js</li>
+                <li><b>Database:</b> MySQL</li>
+                <li><b>Tools:</b> Git, GitHub, XAMPP, VS Code</li>
+            </ul>
+        </div>
+
+        <!-- Projects -->
+        <div class="bg-white rounded-2xl shadow p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+
+            <!-- Engame -->
+            <div class="border rounded-xl p-4 mb-4">
+                <h3 class="text-xl font-semibold">Engame Web App</h3>
+                <p class="text-gray-600 mb-2">
+                    React Web Application for learning English with game system.
+                </p>
+                <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg mr-2 inline-block">Live Demo</a>
+                <a href="https://github.com/DoubleFo20/engame" class="bg-gray-800 text-white px-4 py-2 rounded-lg inline-block">GitHub</a>
+            </div>
+
+            <!-- Gold -->
+            <div class="border rounded-xl p-4 mb-4">
+                <h3 class="text-xl font-semibold">Gold Price Web App</h3>
+                <p class="text-gray-600 mb-2">
+                    Web app for checking gold prices, charts, and alerts.
+                </p>
+                <a href="https://gold-price-checker.onrender.com" class="bg-blue-600 text-white px-4 py-2 rounded-lg mr-2 inline-block">Live Demo</a>
+                <a href="https://github.com/DoubleFo20/gold-price-checker" class="bg-gray-800 text-white px-4 py-2 rounded-lg inline-block">GitHub</a>
+            </div>
+
+            <!-- Admin -->
+            <div class="border rounded-xl p-4">
+                <h3 class="text-xl font-semibold">Admin Dashboard</h3>
+                <p class="text-gray-600 mb-2">
+                    Admin management system for web application.
+                </p>
+                <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg mr-2 inline-block">Live Demo</a>
+                <a href="#" class="bg-gray-800 text-white px-4 py-2 rounded-lg inline-block">GitHub</a>
+            </div>
+
+        </div>
+
+        <!-- Contact -->
+        <div class="bg-white rounded-2xl shadow p-6">
+            <h2 class="text-2xl font-semibold mb-3">Contact</h2>
+            <p class="text-gray-700"><b>Email:</b> Patiphon.127@gmail.com</p>
+            <p class="text-gray-700"><b>GitHub:</b> https://github.com/DoubleFo20</p>
+        </div>
+
     </div>
 
-    <div class="project">
-        <h3>Gold Price Web App</h3>
-        <p>Web app for checking gold prices, charts, and alerts.</p>
-    </div>
-
-    <div class="project">
-        <h3>Admin Dashboard</h3>
-        <p>Admin management system for web application.</p>
-    </div>
-    <h2>About Me</h2>
-    <p>
-    I am a Junior Full-Stack Developer who builds web applications using React, Node.js, PHP, and MySQL.
-    I developed real projects such as Engame Web App and Gold Price Tracking Web Application.
-    I am currently looking for a Junior Developer position.
-    </p>
-    
-    <h2>Tech Stack</h2>
-    <ul>
-        <li>Frontend: React, HTML, CSS, JavaScript, Tailwind</li>
-        <li>Backend: PHP, Node.js</li>
-        <li>Database: MySQL</li>
-        <li>Tools: Git, GitHub, XAMPP, VS Code</li>
-    </ul>
-        <div class="project">
-        <h3>Engame Web App</h3>
-        <p>React Web Application for learning English with game system.</p>
-        <a href="#">Live Demo</a><br>
-        <a href="https://github.com/DoubleFo20/engame">GitHub</a>
-    </div>
-    
-    <div class="project">
-        <h3>Gold Price Web App</h3>
-        <p>Web app for checking gold prices, charts, and alerts.</p>
-        <a href="https://gold-price-checker.onrender.com">Live Demo</a><br>
-        <a href="https://github.com/DoubleFo20/gold-price-checker">GitHub</a>
-    </div>
-    
-    <div class="project">
-        <h3>Admin Dashboard</h3>
-        <p>Admin management system for web application.</p>
-        <a href="#">Live Demo</a><br>
-        <a href="#">GitHub</a>
-    </div>
-
-    <h2>Contact</h2>
-    <p>Email: Patiphon.127@gmail.com</p>
-    <p>GitHub: https://github.com/DoubleFo20</p>
 </body>
 </html>
