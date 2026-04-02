@@ -1,4 +1,4 @@
-# Patiphon Wongchompoo
+สวย# Patiphon Wongchompoo
 Junior Full-Stack Developer
 
 ## Tech Stack
@@ -15,5 +15,5 @@ Junior Full-Stack Developer
 
 ## Contact
 Email: patiphon.127@gmail.com
-GitHub: https://github.com/Suchao001
-Portfolio: https://gold-price-checker.onrender.com
+GitHub:https://doublefo20.github.io/profolio/
+https: https://gold-price-checker.onrender.com
